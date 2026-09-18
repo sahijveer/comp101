@@ -1,0 +1,6 @@
+Computer Type : HP 250 G5 Notebook PC
+CPU : Intel (R) Celeron (R) CPU N3060 @ 1.60GHz
+Memory : 4 GB
+OS : Microsoft Windows 10 Pro
+  HD : 238 GB SSD ZEB-SD26
+Display Resolution : 1366x768
