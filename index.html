@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance and Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dance and Music</h1>
+        <p>Feel the Rhythm. Express Yourself.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Welcome to My Dance and Music Website!</h2>
+
+        <p>Dance and music bring people together through rhythm,
+        creativity, movement, and emotion.</p>
+
+        <p>This website explores different dance styles, music,
+        and the joy of expressing yourself through movement.</p>
+
+        <button onclick="showMessage()">Click Me!</button>
+
+        <p id="message"></p>
+
+        <h2>Explore the Website</h2>
+
+        <ul>
+            <li>Learn about dance and music.</li>
+            <li>Explore dance photos in the gallery.</li>
+            <li>Contact us through the contact page.</li>
+        </ul>
+
+        <p>Learn more about music on
+            <a href="https://www.britannica.com/art/music"
+               target="_blank" rel="noopener noreferrer">
+               Encyclopaedia Britannica
+            </a>.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dance and Music Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").textContent =
+                "Let the music move you!";
+        }
+    </script>
+
+</body>
+</html>
